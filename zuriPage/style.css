@@ -1,0 +1,171 @@
+
+
+*{
+border: 0;
+margin: 0;
+padding: 0;
+}
+body{
+/* background: white; */
+
+}
+.container{
+ background:#fff url("./images/signup_image.png") no-repeat center/cover;
+
+}
+.section-1 .left-part-1 p{
+    margin-top: 1rem;
+}
+
+h3{
+color: blue;
+}
+p .span-1{
+    font-family: 'Pilcrow Rounded';
+    color:#1E0B94;
+
+}
+h3 .span-2{
+    font-family: 'Pilcrow Rounded';
+    color: #00B4D8;
+}
+h3 .span-1{
+    font-family: 'Pilcrow Rounded';
+    color: #1E0B94;
+}
+p .span-2{
+
+        font-family: 'Pilcrow Rounded';
+        color: #00B4D8;
+}
+.head{
+font-weight: bold;
+color: blue;
+margin-bottom: 1rem;
+}
+.section-1{
+padding:1rem;
+display: flex;
+}
+.section-1 > *{
+margin-bottom:2rem;
+flex-basis:48%;
+}
+.right-part1 img{
+width:100%;
+}
+
+
+.section-2{
+padding:1rem;
+display: flex;
+}
+.section-2 > *{
+margin-bottom:2rem;
+flex-basis:48%;
+}
+.right-part-2 img{
+    width: 100%;
+}
+
+
+.section-3{
+    padding:1rem;
+    display: flex;
+    justify-content:space-between ;
+}
+.section-3 > *{
+    margin-bottom:2rem;
+    flex-basis:48%;
+    }
+.left-part-3 img{
+    width: 100%;
+}
+
+.section-4{
+padding:1rem;
+display: flex;
+}
+.section-4 > *{
+margin-bottom:2rem;
+flex-basis:48%;
+}
+.right-part-4 img{
+    width: 100%;
+}
+
+.anchor{
+padding: 0.5rem;
+border-radius: 0.5rem;
+width: 10rem;
+border: 1px solid #00B4D8;
+color: #00B4D8;
+display:  block;
+text-decoration: none;
+margin-top: 1rem;
+text-align: center;
+
+}
+.anchor:hover{
+background-color: blue;
+}
+.section-1 .left-part1 span{
+    color: blue;
+}
+
+
+/*Tablet Device  and mobile*/
+@media(min-width:650px){
+.section-1{
+display:flex;
+flex-flow:row wrap;
+align-items:center;
+gap:4%;
+}
+.section-1 > *{
+flex-basis:48%;
+}
+
+
+.section-2{
+display:flex;
+flex-flow:row wrap;
+align-items:center;
+gap:4%;
+}
+.section-2 > *{
+flex-basis:48%;
+}
+
+.section-3{
+display:flex;
+flex-flow:row wrap;
+align-items:center;
+gap:4%;
+}
+.section-3 > *{
+flex-basis:48%;
+}
+.left-part-1 h2{
+    font-size: 2rem;
+}
+.left-part-2 h3{
+    font-size: 2rem;
+}
+.right-part-3 h3{
+    font-size: 2rem;
+}
+.left-part-4 h3{
+    font-size: 2rem;
+}
+
+.section-4{
+display:flex;
+flex-flow:row wrap;
+align-items:center;
+gap:4%;
+}
+.section-4 > *{
+flex-basis:48%;
+}
+}
